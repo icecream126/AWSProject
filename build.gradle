@@ -36,5 +36,6 @@ dependencies {
     //프로젝트 개발에 필요한 의존성들을 선언
     //버전 명시하면 안됨. 위에 있는 ${springBootVersion}의 버전을 따라가야함
     compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.projectlombok:lombok')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
